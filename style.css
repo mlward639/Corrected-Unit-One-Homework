@@ -1,14 +1,17 @@
 * {
+    /* Sets format for entire webpage */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* Sets background color for entire body */
     background-color: #d9dcd6;
 }
 
 header {
+    /* Sets format, font, and background for header */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +19,18 @@ header {
 }
 
 header h1 {
+    /* Placement and font size for h1 of the header */
     display: inline-block;
     font-size: 48px;
 }
 
 header h1 .seo {
+    /* Sets different color for "seo" in header */
     color: #d9dcd6;
 }
 
 header section {
+    /* Sets format and font for section under header */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,24 +39,29 @@ header section {
 }
 
 header section ul {
+/* Creates unordered list under section in header */
     list-style-type: none;
 }
 
 header section ul li {
+/* Sets format for list items in the unordered list */
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /* Sets color for list items in header that link to webpage below */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* Sets font-size for paragraphs */
     font-size: 16px;
 }
 
 .hero {
+    /* Sets format and attaches image for hero class */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,12 +71,14 @@ p {
 }
 
 main {
+/* Sets format for main */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .search-engine-optimization {
+    /* Sets format, font, and color for search-engine-optimization class */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -75,20 +88,24 @@ main {
 }
 
 .search-engine-optimization h2 {
+    /* Sets format and font-size for h2 of search-engine-optimization class */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .search-engine-optimization img {
+    /* Sets max-height for image in search-engine-optimization class */
     max-height: 200px;
 }
 
 .float-left {
+    /* Formats image to float to the left */
     float: left;
     margin-right: 25px;
 }
 
 .online-reputation-management {
+    /* Sets format, font, and color for online-reputation-management class */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -98,20 +115,24 @@ main {
 }
 
 .online-reputation-management h2 {
+    /* Sets format and font-size for h2 of online-reputation-management class */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .online-reputation-management img {
+    /* Sets max-height for image in online-reputation-management class */
     max-height: 200px;
 }
 
 .float-right {
+    /* Formats image to float to the right */
     float: right;
     margin-left: 25px;
 }
 
 .social-media-marketing {
+    /* Sets format, font, and color for social-media-marketing class */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -121,15 +142,18 @@ main {
 }
 
 .social-media-marketing h2 {
+    /* Sets format and font-size for h2 of social-media-marketing class */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .social-media-marketing img {
+    /* Sets max-height for image in social-media-marketing class */
     max-height: 200px;
 }
 
 aside {
+    /* Format, font, color of aside */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -141,54 +165,64 @@ aside {
 }
 
 .benefit-lead {
+    /* Format and color of the benefit-lead class */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h2 {
+    /* Format of the h2 section in the benefit-lead class */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
+    /* Format of the image in the benefit-lead class */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand {
+    /* Format and color of the benefit-brand class */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand h2 {
+    /* Format of the h2 section in the benefit-brand class */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand img {
+    /* Format of the image in the benefit-brand class */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost {
+    /* Format and color of the benefit-lead cost */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost h2 {
+    /* Format of the h2 section in the benefit-cost class */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost img {
+    /* Format of the image in the benefit-cost class */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 footer {
+    /* Format and font for the footer */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -196,5 +230,6 @@ footer {
 }
 
 footer h2 {
+    /* Font-size for the h2 in the footer */
     font-size: 20px;
 }
