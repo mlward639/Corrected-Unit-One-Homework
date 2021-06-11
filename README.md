@@ -16,10 +16,10 @@ A marketing agency has hired us to refactor their existing codebase in order to 
 
 ![Screenshot](images/website-screenshot.png)
 
-URL links:
+## URL links:
 
-![github-page](https://github.com/mlward639/Corrected-Unit-One-Homework)
 
-![homework url](https://mlward639.github.io/Corrected-Unit-One-Homework/)
+[Github Page](https://github.com/mlward639/Corrected-Unit-One-Homework.git)
 
-link deployed site
+[Homework URL](https://mlward639.github.io/Corrected-Unit-One-Homework/)
+
